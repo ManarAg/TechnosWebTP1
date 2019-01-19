@@ -1,0 +1,46 @@
+h1{
+    font-family: HelveticaNeue-UltraLight, 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    font-weight: lighter;
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-family: HelveticaNeue-UltraLight, 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 22%;
+    width: 100%;
+    text-align: center;  
+}
+
+body{
+    background-image: url("kai-oberhauser-179931-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.circular{
+    position: absolute;
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+    margin: -150px 0 0 -150px;
+    top: 45%;
+    left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 20px;
+    border-color: rgb(178, 91, 236);
+}
+
