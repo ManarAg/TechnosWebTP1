@@ -23,6 +23,19 @@ p{
     text-align: center;  
 }
 
+h2{
+    font-family: HelveticaNeue-UltraLight, 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
 body{
     background-image: url("kai-oberhauser-179931-unsplash.jpg");
     background-repeat: no-repeat;

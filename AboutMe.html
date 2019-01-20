@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<link href="AboutMe.css" type="text/css" rel="stylesheet" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About AGGOUN</title>
+
+</head>
+<body>
+
+<header>
+  <h2>About Me</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#AboutMe">About Me</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#WorkExperience">Work Experience</a></li>
+      <li><a href="#Skills">Skills</a></li>
+    </ul>
+  </nav>
+  
+  <article id="AboutMe">
+    <h1>About Me</h1>
+    <p>
+        I am currently a student in the second year of the engineering cycle (M1) 
+        at ECE Paris.
+        Having an interest in health, I joined the Magisterium in Biology-Health 
+        University Paris-Sud XI. I chose to finish my education in engineering 
+        school, at the ECE Paris, with the aim of acquiring knowledge in computer 
+        science and electronics, and thus to equip me to develop technological 
+        innovations in e-health and biotechnologies.
+        As my studies and internships progressed, I developed a strong interest 
+        in subjects of oncology and artificial intelligence. This translates into 
+        a curiosity pushing me to follow the news in this area. I am convinced that 
+        the combination of biology, robotics and applied computing will solve a 
+        large number of diseases and health problems.
+    </p>
+  </article>
+
+  <article id="Education">
+        <h1>Education</h1>
+
+        <h3>2020 expected</h3>
+        <p>
+            Engineering Degree <br>
+            ECE Engineering School, Paris <br>
+            Second year of the engineering cycle, connected objects networks and services major. Includes subjects such as 3D Design, Routing Protocols, Sensors, IoT.  
+        </p>
+
+        <h3>2017</h3>
+        <p>
+            Bachelor of Science Degree <br>
+            Paris-Sud XI University <br>
+            Integrative cell physiology, Genetics, Anatomy, Immunology, Pathogenesis etc.
+        </p>
+
+    </article>
+
+    <article id="WorkExperience">
+        <h1>Work Experience</h1>
+
+        <h3>2018 (5 weeks)</h3>
+        <p>
+            Marketing Internship <br>
+            Eurodecision, Paris Region – France <br>
+            Discovery of the different business sectors of the company and update of their CRM database.   
+        </p>
+
+        <h3>2017 (8 weeks)</h3>
+        <p>
+            Development Internship <br>
+            Anatoscope, Grenoble - France <br>
+            Development of an internal application in Python to simplify the import and configuration of anatomical entities in complex models and accelerate the creation of 3D digital models of anatomy.
+        </p>
+
+        <h3>2016 (7 weeks)</h3>
+        <p>
+            Development Internship <br>
+            KLS Optim, Paris Region – France <br>
+            Development in HTML5, JavaScript and Java of a 3D visualization module in the form of a 2D drawing integrated into a cloud application dedicated to operational logistics.                
+        </p>
+
+        <h3>2016 (7 weeks)</h3>
+        <p>
+            Biology Internship <br>
+            INSERM, Paris Region- France <br>
+            Internship topic: Therapeutic potential of modulators of calcium influx to study calcium homeostasis of cell lines typical of breast cancer and leukemia / lymphoma.                
+        </p>
+    </article>
+
+
+    <article id="Skills">
+        <h1>Skills</h1>
+            <table>
+
+                <tbody>
+                <tr>
+                    <td>Programming
+                        <p>C <br>
+                        Java <br>
+                        HTML/CSS <br>
+                        Javascript <br>
+                        PHP <br>
+                        MySQL
+                        </p>
+                    </td>   
+
+                    <td>Software
+                        <p> Visual Studio Code <br>
+                            Microsoft Office <br>
+                            Adobe Photoshop <br>
+                            Final Cut Pro X <br>
+                            SolidWorks <br>
+                            Unity3D <br>
+                            Prism 
+                        </p>
+                    </td>
+                </tr>
+                </tbody>
+                
+                <tbody>
+                <tr>
+                    <td>Interests
+                        <p>
+                            Fitness, Yoga <br>
+                            Video editing <br>
+                            3D Design <br>
+                            e-Health <br>
+                            Biotechnology
+                        </p>
+                    </td>
+                    <td>Qualities
+                        <p>
+                            Team spirit <br>
+                            Creativity <br>
+                            Hard Worker <br>
+                            Commitment <br>
+                            Rigor                                
+                        </p>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+    </article>         
+</section>
+
+<footer>
+  <h2>Contact Me</h2>
+  
+    <form id="contactMe" action="#" method="POST">
+        
+        <div class="row">
+            <label class="required" for="name">Name</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="35" /><br />
+        </div>
+        <div class="row">
+            <label class="required" for="email">Email</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="35" /><br />
+        </div>
+        <div class="row">
+            <label class="required" for="message">Message</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        </div>
+        
+        <input id="submit_button" type="submit" value="Send" />
+
+    </form>
+
+</footer>
+
+</body>
+</html>
