@@ -8,7 +8,7 @@
   
   /* Style the header */
   header {
-    background-color: #666;
+    background-color: rgb(211, 202, 202);
     font-family: HelveticaNeue-UltraLight, 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 30px;
     letter-spacing: 1px;
@@ -44,7 +44,7 @@
     padding: 0 0.5em;
     width: 10em;
     height: 2em;
-    margin: 25px 0;
+    margin: 15px 0;
     text-align: center;
     border-width: 0.5px;
     border-color: rgb(60, 18, 214);
@@ -57,7 +57,7 @@
     width: 100%;
     height: 200%;
     /*background-color: #ffffff;*/
-    border-width: 10px;
+    border-width: 8px;
     border-color: rgb(60, 18, 214);
     border-style: solid;
   }
@@ -103,22 +103,6 @@ p{
     left: 2%; 
 }
 
-#AboutMe{
-    /*background-color: #da49e9;*/
-}
-
-#Education{
-    /*background-color: #4966e9;*/
-}
-
-#WorkExperience{
-    /*background-color: #49aee9;*/
-}
-
-#Skills{
-    /*background-color: #ffffff;*/
-}
-
 td{
     border-radius: 25%;
     border-style: inset;
@@ -132,3 +116,43 @@ table,tbody,tfoot,tr, td,th{
     padding: 2rem;
     width: 50%;
 }
+
+.button {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(65, 53, 235);
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: left;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  

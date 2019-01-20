@@ -21,4 +21,4 @@ Créer un site CV **présentable** qui pourra être mis en ligne par vos soins
 ## Première étape:
 
   Vous forkez ce repository et vous commencez à travailler sur **votre** copie. Si vous avez des doutes demandez à votre professeur il est la pour ça.
-  Vous modifiez votre readme et vous y incorporez **Essai depuis le bon dossier**
+  Vous modifiez votre readme et vous y incorporez **Manar AGGOUN TD4 ING4 OCRES**
